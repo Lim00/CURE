@@ -1,2 +1,4 @@
 # CURE
-CURE Game
+
+CURE Game development and sharing
+
