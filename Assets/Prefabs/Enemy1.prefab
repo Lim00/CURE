@@ -116,6 +116,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCharacterToFollow: {fileID: 0}
   moveSpeed: 0.1
+  whatIsFriendly:
+    serializedVersion: 2
+    m_Bits: 256
+  recognitionRange: 4.01
 --- !u!114 &3994498778343447756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,7 +137,7 @@ MonoBehaviour:
   attackPosition: {fileID: 330096983273668907}
   whatIsFriendly:
     serializedVersion: 2
-    m_Bits: 2048
+    m_Bits: 256
   attackRange: 10
   damage: 2
 --- !u!114 &3017674428643615977
