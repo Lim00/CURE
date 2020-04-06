@@ -17,7 +17,7 @@ public class EnemyAttack : MonoBehaviour
     {
         Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPosition.position, attackRange, whatIsFriendly);
 
-        if(enemiesToDamage != null)
+        if(enemiesToDamage.Length > 0)
         {
             AttackMeelee(meleeMaxNumAttack, damage, damage, enemiesToDamage);
         }
@@ -29,17 +29,22 @@ public class EnemyAttack : MonoBehaviour
         {
             for (int i = 0; i < enemies.Length && i < meleeMax; i++)
             {
-                if (enemies[i].GetComponent<BotHealth>()) // If it is a Bot
+                
+                // Debug.Log(enemies[i].gameObject);
+                if (enemies[i].GetComponentInParent<BotHealth>()) // If it is a Bot
                 {
-                    enemies[i].GetComponent<BotHealth>().TakeDamage(damageBot);
+                    Debug.Log("Bot hit");
+                    enemies[i].GetComponentInParent<BotHealth>().TakeDamage(damageBot);
                 }
-                else if (enemies[i].GetComponent<ClassHealth>()) // If it is a Class
+                else if (enemies[i].GetComponentInParent<ClassHealth>()) // If it is a Class
                 {
-                    enemies[i].GetComponent<ClassHealth>().TakeDamage(damageClass);
+                    Debug.Log("Class hit");
+                    enemies[i].GetComponentInParent<ClassHealth>().TakeDamage(damageClass);
                 }
-                else if(enemies[i].GetComponent<MainCharacterHealth>()) // If it is a Main character
+                else if(enemies[i].GetComponentInParent<MainCharacterHealth>()) // If it is a Main character
                 {
-                    enemies[i].GetComponent<MainCharacterHealth>().TakeDamage(damageClass);
+                    Debug.Log("Main hit");
+                    enemies[i].GetComponentInParent<MainCharacterHealth>().TakeDamage(damageClass);
                 }
             }
             timeBetweenAttack = startTimeBetweenAttack;

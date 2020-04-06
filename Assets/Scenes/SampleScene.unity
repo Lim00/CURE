@@ -518,6 +518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_0
       objectReference: {fileID: 0}
+    - target: {fileID: 1988565716551256, guid: ffba37ecbd0ecdb408ca3ae0b93ef4f1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4752509006717512, guid: ffba37ecbd0ecdb408ca3ae0b93ef4f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.12
@@ -3194,6 +3198,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBuilding
       objectReference: {fileID: 0}
+    - target: {fileID: 2034942116101386745, guid: b865965a87d39d8449228880c383a569,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2034942116101386747, guid: b865965a87d39d8449228880c383a569,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3248,6 +3257,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034942117196027078, guid: b865965a87d39d8449228880c383a569,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b865965a87d39d8449228880c383a569, type: 3}

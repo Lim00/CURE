@@ -13,6 +13,8 @@ public class BotMovement : MonoBehaviour
     public Vector2 endPosition; // End position = End of the stage
     public LayerMask whatIsEnemy; // If find this layer's object, stop
 
+    Collider2D[] enemiesToDamage; // Find objects witin the rrange
+
     void Start()
     {
         startPosition.x = -10;
@@ -26,11 +28,10 @@ public class BotMovement : MonoBehaviour
 
     void Update()
     {
-        
-        if(transform.position.x < endPosition.x) // If not reach the end of the stage
-        {
-            Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPosition.position, attackRange, whatIsEnemy);
+        enemiesToDamage = Physics2D.OverlapCircleAll(attackPosition.position, attackRange, whatIsEnemy);
 
+        if (transform.position.x < endPosition.x) // If not reach the end of the stage
+        {
             if (enemiesToDamage.Length == 0)
             {
                 Vector2 newPos = transform.position;
