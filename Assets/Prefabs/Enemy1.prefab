@@ -154,6 +154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startHealth: 100
   currentHealth: 0
+  hitTextPrefab: {fileID: 7506355053742225286, guid: b87efec05b855c442b2e329875a48eb3,
+    type: 3}
 --- !u!1 &6873804862709661105
 GameObject:
   m_ObjectHideFlags: 0
