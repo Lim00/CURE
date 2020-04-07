@@ -31,6 +31,7 @@ public class BotAttack : MonoBehaviour
         {
             for (int i = 0; i < enemies.Length && i < meleeMax; i++)
             {
+                Debug.Log(enemies[i].gameObject);
                 enemies[i].GetComponent<EnemyHealth>().TakeDamage(damage);
             }
             timeBetweenAttack = startTimeBetweenAttack;

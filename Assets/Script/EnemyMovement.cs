@@ -15,7 +15,6 @@ public class EnemyMovement : MonoBehaviour
     void Start()
     {
         MainCharacterToFollow = GameObject.Find("MainCharacter");
-        
     }
 
     // Update is called once per frame
@@ -25,7 +24,9 @@ public class EnemyMovement : MonoBehaviour
 
         if(friendsToDamge.Length == 0)
             transform.position = Vector3.MoveTowards(transform.position, MainCharacterToFollow.transform.position, moveSpeed * 0.1f);
+        /*
         else
             transform.position = Vector3.MoveTowards(transform.position, MainCharacterToFollow.transform.position, moveSpeed * 0.3f * 0.1f);
+            */
     }
 }

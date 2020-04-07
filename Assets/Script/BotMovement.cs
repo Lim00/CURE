@@ -32,7 +32,7 @@ public class BotMovement : MonoBehaviour
 
         if (transform.position.x < endPosition.x) // If not reach the end of the stage
         {
-            if (enemiesToDamage.Length == 0)
+            if (enemiesToDamage.Length == 0) // Move forward only when clear of enemies
             {
                 Vector2 newPos = transform.position;
                 newPos.x += 0.3f;

@@ -29,7 +29,10 @@ public class ClassAttack : MonoBehaviour
         {
             for (int i = 0; i < enemies.Length && i < meleeMax; i++)
             {
-                enemies[i].GetComponent<EnemyHealth>().TakeDamage(damage);
+                if (enemies[i].GetComponent<EnemyHealth>()) // If it's an enemy
+                {
+                    enemies[i].GetComponent<EnemyHealth>().TakeDamage(damage);
+                }
             }
             timeBetweenAttack = startTimeBetweenAttack;
         }
