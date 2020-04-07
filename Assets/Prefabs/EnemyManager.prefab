@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2034942116101386747}
   - component: {fileID: 2034942116101386744}
+  - component: {fileID: 5417825194836306869}
+  - component: {fileID: 5777583261236245113}
   m_Layer: 9
   m_Name: EnemyManager
   m_TagString: Untagged
@@ -82,6 +84,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5417825194836306869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034942116101386745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f34c1daec037254dbe43fca806d7a30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startHealth: 500
+  currentHealth: 0
+  hitTextPrefab: {fileID: 7506355053742225286, guid: b87efec05b855c442b2e329875a48eb3,
+    type: 3}
+--- !u!58 &5777583261236245113
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034942116101386745}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.61
 --- !u!1 &2034942117196027078
 GameObject:
   m_ObjectHideFlags: 0
