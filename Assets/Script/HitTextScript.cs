@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HitTextScript : MonoBehaviour
 {
-    public float destroyTime = 3f;
+    public float destroyTime = 1f;
 
     void Start()
     {

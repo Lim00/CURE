@@ -11,9 +11,16 @@ public class EnemyHealth : MonoBehaviour
     // Damage effect. For now, it just a text popup
     public GameObject hitTextPrefab;
 
+    // Enemy damaged sound effect
+    private AudioSource getHit;
+    public AudioClip hitClip;
+
     public void Awake()
     {
         currentHealth = startHealth;
+
+        getHit = gameObject.GetComponent<AudioSource>();
+        getHit.clip = hitClip; // Initialize AudioClip
     }
 
     public void TakeDamage(int damage)
@@ -23,6 +30,7 @@ public class EnemyHealth : MonoBehaviour
 
         if (hitTextPrefab) // Only when the game object is assigned
         {
+            getHit.Play(); // Sound effect of getting hit
             ShowHitText();
         }
         
