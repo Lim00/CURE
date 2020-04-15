@@ -22,13 +22,13 @@ TagManager:
   - UI
   - 
   - 
-  - Friendly
-  - Enemy
-  - Background
-  - Ground
-  - 
-  - 
-  - 
+  - BackFar
+  - BackClose
+  - WalkerAndEnemyHQ
+  - ClassAndEnemy
+  - Bot
+  - ForeFar
+  - ForeClose
   - 
   - 
   - 
