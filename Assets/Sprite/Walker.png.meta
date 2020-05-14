@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 308383222f085404183e15df399e16cd
+guid: c8872e5a8e414834294efe85439cc6dc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5081659279774951377
-    second: Ranger_0
+      213: -6248698276573809173
+    second: Walker_0
   - first:
-      213: 500804208115933777
-    second: Ranger_1
+      213: 7783805045399248265
+    second: Walker_1
   - first:
-      213: -6148606654537804165
-    second: Ranger_2
+      213: 6962240038297838341
+    second: Walker_2
   - first:
-      213: 2984787494311394480
-    second: Ranger_3
+      213: -3097149836137737942
+    second: Walker_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -43,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -58,7 +58,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 1, y: 255, z: 255, w: 1}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -72,10 +72,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -84,10 +84,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,10 +96,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ranger_0
+      name: Walker_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f28527f0fc15a79b0800000000000000
-      internalID: -5081659279774951377
+      spriteID: be5f834460a2849a0800000000000000
+      internalID: -6248698276573809173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ranger_1
+      name: Walker_1
       rect:
         serializedVersion: 2
         x: 256
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15265ce16c633f600800000000000000
-      internalID: 500804208115933777
+      spriteID: 98d5aebc271a50c60800000000000000
+      internalID: 7783805045399248265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ranger_2
+      name: Walker_2
       rect:
         serializedVersion: 2
         x: 0
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b76dbac03d2cbaaa0800000000000000
-      internalID: -6148606654537804165
+      spriteID: 503aeb36d68de9060800000000000000
+      internalID: 6962240038297838341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ranger_3
+      name: Walker_3
       rect:
         serializedVersion: 2
         x: 256
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bc757879681c6920800000000000000
-      internalID: 2984787494311394480
+      spriteID: a21d9d822a6b405d0800000000000000
+      internalID: -3097149836137737942
       vertices: []
       indices: 
       edges: []
