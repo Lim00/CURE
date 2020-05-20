@@ -40,6 +40,7 @@ public class ShieldRange : MonoBehaviour
 
         for (int i = 0; i < friendsToHeal.Length; i++)
         {
+            /* 
             if (friendsToHeal[i].GetComponent<ClassHealth>())
             {
                 Debug.Log(" === Class healed === ");
@@ -50,6 +51,7 @@ public class ShieldRange : MonoBehaviour
                 Debug.Log(" === Bot healed === ");
                 friendsToHeal[i].GetComponent<BotHealth>().currentHealth += 1;
             }
+            */
         }
     }
 }
