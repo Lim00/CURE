@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Script/Test.cs.meta
 guid: a70fc40cfdc722142b93ded9c5007aec
+=======
+guid: e55c002ac80dda344b0d5c20cb00ebcc
+>>>>>>> 2449c9365dcbb9e653b5da932b6eb1037888770d:Assets/Script/200213_old/CharacterMovement.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
